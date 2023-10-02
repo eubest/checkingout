@@ -20,7 +20,7 @@ export function ShippingMethodOption({ method }: ShippingMethodOptionProps) {
       className={({ checked, active }) =>
         clsx(
           checked ? "border-transparent" : "border-gray-300",
-          active ? "ring-1 ring-blue-500" : "",
+          active ? "ring-1 ring-yellow-500" : "",
           "bg-white border rounded shadow-sm p-4 flex cursor-pointer"
         )
       }
@@ -46,7 +46,7 @@ export function ShippingMethodOption({ method }: ShippingMethodOptionProps) {
           <div
             className={clsx(
               active ? "border" : "border-2",
-              checked ? "border-blue-500" : "border-transparent",
+              checked ? "border-yellow-500" : "border-transparent",
               "absolute -inset-px rounded pointer-events-none"
             )}
             aria-hidden="true"

@@ -59,7 +59,7 @@ function LoginPage() {
   });
 
   return (
-    <div className="min-h-screen bg-no-repeat bg-cover bg-center bg-gradient-to-r from-blue-100 to-blue-500">
+    <div className="min-h-screen bg-no-repeat bg-cover bg-center bg-gradient-to-r from-yellow-100 to-yellow-500">
       <div className="flex justify-end">
         <div className="bg-white min-h-screen w-1/2 flex justify-center items-center">
           <div>
@@ -100,7 +100,7 @@ function LoginPage() {
                 />
               </div>
               <div className="flex justify-between">
-                <span className="text-sm text-blue-700 hover:underline cursor-pointer pt-2">
+                <span className="text-sm text-yellow-700 hover:underline cursor-pointer pt-2">
                   {t.formatMessage(messages.loginRemindPasswordButtonLabel)}
                 </span>
               </div>

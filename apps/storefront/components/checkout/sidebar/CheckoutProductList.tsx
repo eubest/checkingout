@@ -45,7 +45,7 @@ export function CheckoutProductList({ lines, token }: CheckoutProductListProps) 
               <div className="flex space-x-4">
                 <button
                   type="button"
-                  className="text-sm font-medium text-blue-600 hover:text-blue-500"
+                  className="text-sm font-medium text-yellow-600 hover:text-yellow-500"
                   onClick={() =>
                     removeProductFromCheckout({
                       variables: {
