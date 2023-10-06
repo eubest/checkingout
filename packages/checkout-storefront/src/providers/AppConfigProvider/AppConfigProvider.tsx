@@ -22,7 +22,8 @@ export const AppConfigProvider: React.FC<PropsWithChildren<{ env: AppEnv }>> = (
   children,
   env,
 }) => {
-  const { saleorApiUrl } = getQueryParams();
+  const  saleorApiUrl = "https://sitenou2.bjctools.ro/graphql/";
+  //const { saleorApiUrl } = getQueryParams();
   const [{ data: storedAppConfig, loading }] = useFetch(getAppConfig, {
     args: { checkoutApiUrl: env.checkoutApiUrl, saleorApiUrl },
   });

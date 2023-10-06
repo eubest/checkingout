@@ -23,7 +23,9 @@ export interface RootProps {
 }
 
 export const Root = ({ env, saleorApiUrlRegex }: RootProps) => {
-  const { saleorApiUrl } = getQueryParams();
+  // const { saleorApiUrl } = getQueryParams();
+  const  saleorApiUrl = "https://sitenou2.bjctools.ro/graphql/";
+ // const { saleorApiUrl } = getQueryParams();
 
   invariant(
     saleorApiUrlRegex.test(saleorApiUrl),

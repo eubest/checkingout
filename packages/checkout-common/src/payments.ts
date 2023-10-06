@@ -25,6 +25,7 @@ export const PaymentProviders: readonly (keyof PaymentProviderToSettings)[] = [
   "mollie",
   "adyen",
   "stripe",
+  "braintree",
   "dummy",
 ] as const;
 export type PaymentProviderID = typeof PaymentProviders[number];
